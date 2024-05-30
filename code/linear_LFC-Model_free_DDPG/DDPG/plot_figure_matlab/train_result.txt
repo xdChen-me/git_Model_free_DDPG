@@ -1,0 +1,200 @@
+episode: 1/100, reward: -18.754855429793704, learning rate: 5e-05
+, output:[[0.8094295]]
+episode: 2/100, reward: -18.784314603890174, learning rate: 4.9475962e-05
+, output:[[0.8087986]]
+episode: 3/100, reward: -18.762045787024256, learning rate: 4.895742e-05
+, output:[[0.8083031]]
+episode: 4/100, reward: -18.72073000176236, learning rate: 4.8444308e-05
+, output:[[0.8081869]]
+episode: 5/100, reward: -18.68365699214727, learning rate: 4.7936577e-05
+, output:[[0.807802]]
+episode: 6/100, reward: -18.654620980677816, learning rate: 4.7434165e-05
+, output:[[0.80761385]]
+episode: 7/100, reward: -18.61587715144008, learning rate: 4.693702e-05
+, output:[[0.80737805]]
+episode: 8/100, reward: -18.587438649409084, learning rate: 4.6445086e-05
+, output:[[0.8071101]]
+episode: 9/100, reward: -18.565863078550635, learning rate: 4.5958306e-05
+, output:[[0.806799]]
+episode: 10/100, reward: -18.557890818961276, learning rate: 4.547663e-05
+, output:[[0.8065391]]
+episode: 11/100, reward: -18.540006937255175, learning rate: 4.5e-05
+, output:[[0.80624473]]
+episode: 12/100, reward: -18.52956086341624, learning rate: 4.4528366e-05
+, output:[[0.80619884]]
+episode: 13/100, reward: -18.513528722870475, learning rate: 4.4061675e-05
+, output:[[0.80615306]]
+episode: 14/100, reward: -18.491838177508004, learning rate: 4.3599877e-05
+, output:[[0.8059955]]
+episode: 15/100, reward: -18.467858641419966, learning rate: 4.3142918e-05
+, output:[[0.805749]]
+episode: 16/100, reward: -18.4520815763694, learning rate: 4.269075e-05
+, output:[[0.80555236]]
+episode: 17/100, reward: -18.434397345036732, learning rate: 4.224332e-05
+, output:[[0.80535835]]
+episode: 18/100, reward: -18.407549833395343, learning rate: 4.1800577e-05
+, output:[[0.805233]]
+episode: 19/100, reward: -18.380872546703685, learning rate: 4.1362477e-05
+, output:[[0.80520654]]
+episode: 20/100, reward: -18.354179846676033, learning rate: 4.0928964e-05
+, output:[[0.8052164]]
+episode: 21/100, reward: -18.334071521021002, learning rate: 4.05e-05
+, output:[[0.8050542]]
+episode: 22/100, reward: -18.318074923898898, learning rate: 4.007553e-05
+, output:[[0.8048704]]
+episode: 23/100, reward: -18.301969508384577, learning rate: 3.9655508e-05
+, output:[[0.8046054]]
+episode: 24/100, reward: -18.281705502723685, learning rate: 3.923989e-05
+, output:[[0.80435634]]
+episode: 25/100, reward: -18.255366254552182, learning rate: 3.8828628e-05
+, output:[[0.80407506]]
+episode: 26/100, reward: -18.23245533191347, learning rate: 3.8421673e-05
+, output:[[0.8038781]]
+episode: 27/100, reward: -18.208901431430345, learning rate: 3.8018985e-05
+, output:[[0.80373275]]
+episode: 28/100, reward: -18.18029353664634, learning rate: 3.7620517e-05
+, output:[[0.80361867]]
+episode: 29/100, reward: -18.150785216771293, learning rate: 3.722623e-05
+, output:[[0.80348355]]
+episode: 30/100, reward: -18.123519890161194, learning rate: 3.683607e-05
+, output:[[0.80322534]]
+episode: 31/100, reward: -18.1063357614177, learning rate: 3.645e-05
+, output:[[0.80286306]]
+episode: 32/100, reward: -18.09171570628387, learning rate: 3.6067977e-05
+, output:[[0.8024642]]
+episode: 33/100, reward: -18.081149133357926, learning rate: 3.5689958e-05
+, output:[[0.8020532]]
+episode: 34/100, reward: -18.072285805428997, learning rate: 3.53159e-05
+, output:[[0.8016255]]
+episode: 35/100, reward: -18.059613788928385, learning rate: 3.4945762e-05
+, output:[[0.80117804]]
+episode: 36/100, reward: -18.046651166359684, learning rate: 3.4579505e-05
+, output:[[0.80073506]]
+episode: 37/100, reward: -18.038477564872924, learning rate: 3.4217086e-05
+, output:[[0.8003326]]
+episode: 38/100, reward: -18.02651141127197, learning rate: 3.385847e-05
+, output:[[0.7998964]]
+episode: 39/100, reward: -18.01231666805141, learning rate: 3.3503606e-05
+, output:[[0.79945946]]
+episode: 40/100, reward: -18.00047656227, learning rate: 3.315246e-05
+, output:[[0.79903275]]
+episode: 41/100, reward: -17.9891522456025, learning rate: 3.2805e-05
+, output:[[0.7985827]]
+episode: 42/100, reward: -17.97741371937403, learning rate: 3.246118e-05
+, output:[[0.7981012]]
+episode: 43/100, reward: -17.963739144118986, learning rate: 3.2120963e-05
+, output:[[0.7976982]]
+episode: 44/100, reward: -17.948331672382114, learning rate: 3.178431e-05
+, output:[[0.79728055]]
+episode: 45/100, reward: -17.93957488361436, learning rate: 3.145119e-05
+, output:[[0.79686385]]
+episode: 46/100, reward: -17.931492021322374, learning rate: 3.1121555e-05
+, output:[[0.79643023]]
+episode: 47/100, reward: -17.919174291218077, learning rate: 3.0795378e-05
+, output:[[0.795964]]
+episode: 48/100, reward: -17.910598858523993, learning rate: 3.047262e-05
+, output:[[0.79556507]]
+episode: 49/100, reward: -17.899704002283475, learning rate: 3.0153244e-05
+, output:[[0.79522216]]
+episode: 50/100, reward: -17.886303898875255, learning rate: 2.9837216e-05
+, output:[[0.7949171]]
+episode: 51/100, reward: -17.871738962841455, learning rate: 2.95245e-05
+, output:[[0.79459536]]
+episode: 52/100, reward: -17.853245876801047, learning rate: 2.9215062e-05
+, output:[[0.79431343]]
+episode: 53/100, reward: -17.834184851462744, learning rate: 2.8908866e-05
+, output:[[0.7940315]]
+episode: 54/100, reward: -17.820912348508557, learning rate: 2.860588e-05
+, output:[[0.7937348]]
+episode: 55/100, reward: -17.808631691644866, learning rate: 2.8306069e-05
+, output:[[0.79339564]]
+episode: 56/100, reward: -17.79565317789465, learning rate: 1e-05
+, output:[[0.79328865]]
+episode: 57/100, reward: -17.791145066229372, learning rate: 1e-05
+, output:[[0.7931974]]
+episode: 58/100, reward: -17.786738712756232, learning rate: 1e-05
+, output:[[0.79312265]]
+episode: 59/100, reward: -17.781766724332936, learning rate: 1e-05
+, output:[[0.7930501]]
+episode: 60/100, reward: -17.778441077849493, learning rate: 1e-05
+, output:[[0.79298824]]
+episode: 61/100, reward: -17.776209554867087, learning rate: 1e-05
+, output:[[0.7929101]]
+episode: 62/100, reward: -17.77422570109545, learning rate: 1e-05
+, output:[[0.79283756]]
+episode: 63/100, reward: -17.770766910714023, learning rate: 1e-05
+, output:[[0.7927502]]
+episode: 64/100, reward: -17.768735837660845, learning rate: 1e-05
+, output:[[0.7926587]]
+episode: 65/100, reward: -17.766933358676408, learning rate: 1e-05
+, output:[[0.79259616]]
+episode: 66/100, reward: -17.765196351900926, learning rate: 1e-05
+, output:[[0.79254353]]
+episode: 67/100, reward: -17.76433733129809, learning rate: 1e-05
+, output:[[0.7924598]]
+episode: 68/100, reward: -17.764383764671393, learning rate: 1e-05
+, output:[[0.7923911]]
+episode: 69/100, reward: -17.763471869465754, learning rate: 1e-05
+, output:[[0.792312]]
+episode: 70/100, reward: -17.763864361340595, learning rate: 1e-05
+, output:[[0.7922625]]
+episode: 71/100, reward: -17.763604374699895, learning rate: 1e-05
+, output:[[0.7922326]]
+episode: 72/100, reward: -17.763196149212565, learning rate: 1e-05
+, output:[[0.7921853]]
+episode: 73/100, reward: -17.76121338904656, learning rate: 1e-05
+, output:[[0.7921244]]
+episode: 74/100, reward: -17.75970102126789, learning rate: 1e-05
+, output:[[0.79208153]]
+episode: 75/100, reward: -17.759357995942977, learning rate: 1e-05
+, output:[[0.79202974]]
+episode: 76/100, reward: -17.75893377112378, learning rate: 1e-05
+, output:[[0.7919391]]
+episode: 77/100, reward: -17.758419144502962, learning rate: 1e-05
+, output:[[0.791849]]
+episode: 78/100, reward: -17.758326454580697, learning rate: 1e-05
+, output:[[0.79176986]]
+episode: 79/100, reward: -17.758875223144255, learning rate: 1e-05
+, output:[[0.7916989]]
+episode: 80/100, reward: -17.758926227792024, learning rate: 1e-05
+, output:[[0.7916218]]
+episode: 81/100, reward: -17.759259805496377, learning rate: 1e-05
+, output:[[0.7915449]]
+episode: 82/100, reward: -17.760363391511934, learning rate: 1e-05
+, output:[[0.79145837]]
+episode: 83/100, reward: -17.760319037812835, learning rate: 1e-05
+, output:[[0.79137063]]
+episode: 84/100, reward: -17.75988336544489, learning rate: 1e-05
+, output:[[0.791292]]
+episode: 85/100, reward: -17.759855861964596, learning rate: 1e-05
+, output:[[0.7912338]]
+episode: 86/100, reward: -17.759290963858927, learning rate: 1e-05
+, output:[[0.7912115]]
+episode: 87/100, reward: -17.756986495943302, learning rate: 1e-05
+, output:[[0.79121596]]
+episode: 88/100, reward: -17.753671275694252, learning rate: 1e-05
+, output:[[0.79123586]]
+episode: 89/100, reward: -17.751038748388606, learning rate: 1e-05
+, output:[[0.7912627]]
+episode: 90/100, reward: -17.749541199637818, learning rate: 1e-05
+, output:[[0.79127717]]
+episode: 91/100, reward: -17.749297516001537, learning rate: 1e-05
+, output:[[0.7913009]]
+episode: 92/100, reward: -17.748086470998253, learning rate: 1e-05
+, output:[[0.7913245]]
+episode: 93/100, reward: -17.746652066955097, learning rate: 1e-05
+, output:[[0.7913555]]
+episode: 94/100, reward: -17.745245279874815, learning rate: 1e-05
+, output:[[0.7914027]]
+episode: 95/100, reward: -17.743090367618223, learning rate: 1e-05
+, output:[[0.7914561]]
+episode: 96/100, reward: -17.7420955394276, learning rate: 1e-05
+, output:[[0.7914941]]
+episode: 97/100, reward: -17.74045810254958, learning rate: 1e-05
+, output:[[0.79153323]]
+episode: 98/100, reward: -17.740987607058088, learning rate: 1e-05
+, output:[[0.7915878]]
+episode: 99/100, reward: -17.742117811932346, learning rate: 1e-05
+, output:[[0.7916227]]
+episode: 100/100, reward: -17.7431213662229, learning rate: 1e-05
+, output:[[0.7916276]]

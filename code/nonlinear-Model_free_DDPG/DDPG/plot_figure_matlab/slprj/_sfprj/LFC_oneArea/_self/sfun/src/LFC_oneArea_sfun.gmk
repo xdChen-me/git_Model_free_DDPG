@@ -1,0 +1,77 @@
+#--------------------------- Tool Specifications -------------------------
+#
+# Modify the following macros to reflect the tools you wish to use for
+# compiling and linking your code.
+#
+CC = "D:\appInstall\MATLAB\R2021b\bin\win64\mex.exe" -R2018a
+LD = $(CC) -f "C:\Users\abc19\AppData\Roaming\MathWorks\MATLAB\R2021b\mex_C++_win64.xml"
+ 
+MODEL     = LFC_oneArea
+TARGET      = sfun
+MODULE_SRCS   = c1_LFC_oneArea.cpp half_type.cpp
+MODEL_SRC  = LFC_oneArea_sfun.cpp
+MODEL_REG = LFC_oneArea_sfun_registry.cpp
+MAKEFILE    = LFC_oneArea_sfun.gmk
+MATLAB_ROOT  = d:\appinstall\matlab\r2021b\toolbox\stateflow\stateflow\..\..\..
+BUILDARGS   = 
+#------------------------------ Include/Lib Path ------------------------------
+ 
+USER_INCLUDES = -I"D:\work\paper_for_singlearea\lfc_ddpg_mindspore\linear_env\lfc-model_free_ddpg_mindspore_5_matlab\DDPG\plot_figure_mindspore\slprj\_sfprj\lfc_onearea\_self\sfun\src" -I"D:\work\paper_for_singlearea\lfc_ddpg_mindspore\linear_env\lfc-model_free_ddpg_mindspore_5_matlab\DDPG\plot_figure_mindspore" 
+AUX_INCLUDES = 
+MLSLSF_INCLUDES  = \
+    -I"D:\appInstall\MATLAB\R2021b\extern\include" \
+    -I"D:\appInstall\MATLAB\R2021b\simulink\include" \
+    -I"D:\appInstall\MATLAB\R2021b\simulink\include\sf_runtime" \
+    -I"D:\appInstall\MATLAB\R2021b\stateflow\c\mex\include" \
+    -I"D:\appInstall\MATLAB\R2021b\rtw\c\src" \
+    -I"D:\work\paper_for_singlearea\LFC_DDPG_mindspore\linear_env\LFC-Model_free_DDPG_mindspore_5_matlab\DDPG\plot_figure_mindspore\slprj\_sfprj\LFC_oneArea\_self\sfun\src" 
+
+THIRD_PARTY_INCLUDES = -I"D:\appInstall\MATLAB\R2021b\extern\include\mkldnn" 
+
+INCLUDE_PATH = $(USER_INCLUDES) $(AUX_INCLUDES) $(MLSLSF_INCLUDES) $(COMPILER_INCLUDES) $(THIRD_PARTY_INCLUDES)
+ 
+#----------------- Compiler and Linker Options --------------------------------
+ 
+# Optimization Options
+ 
+CC_OPTS =  
+CPP_REQ_DEFINES = -DMATLAB_MEX_FILE
+ 
+# Uncomment this line to move warning level to W4
+# cflags = $(cflags:W3=W4)
+CFLAGS = $(CPP_REQ_DEFINES) $(INCLUDE_PATH) CFLAGS="$$CFLAGS $(CC_OPTS)"
+ 
+LDFLAGS =  
+ 
+AUXLDFLAGS = 
+#----------------------------- Source Files -----------------------------------
+ 
+THIRD_PARTY_SRCS = d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWCNNLayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWFCLayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWInputLayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWOutputLayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWReLULayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWTanhLayer.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWTensorBase.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnFCLayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnInputLayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnOutputLayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnReLULayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnTanhLayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnCNNLayerImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnTargetNetworkImpl.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnLayerImplFactory.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnUtils.cpp d:/work/PAPER_~1/LFC_DD~2/LINEAR~1/LFBBE1~1/ddpg/PLOT_F~1/slprj/_sfprj/LFC_ON~1/_self/sfun/src/MWMkldnnCustomLayerBase.cpp  
+REQ_SRCS  = $(MODEL_SRC) $(MODEL_REG) $(MODULE_SRCS) $(THIRD_PARTY_SRCS) 
+
+USER_OBJS =
+
+AUX_ABS_OBJS =
+
+REQ_OBJS = $(REQ_SRCS:.cpp=.obj)
+REQ_OBJS2 = $(REQ_OBJS:.c=.obj)
+OBJS = $(REQ_OBJS2) $(USER_OBJS) $(AUX_ABS_OBJS) $(THIRD_PARTY_OBJS)
+OBJLIST_FILE = LFC_oneArea_sfun.mol
+SFCLIB = 
+AUX_LNK_OBJS = 
+USER_LIBS = 
+PARLIB = 
+ 
+#--------------------------------- Rules --------------------------------------
+ 
+MEX_FILE_NAME = $(MODEL)_$(TARGET).mexw64
+ 
+ $(MEX_FILE_NAME): $(MAKEFILE) $(OBJS) $(SFCLIB) $(AUX_LNK_OBJS)
+	@echo ### Linking ...
+	$(LD) -silent LD="$$MINGWROOT\bin\g++" LDFLAGS="$$LDFLAGS $(LDFLAGS) $(AUXLDFLAGS)" -output $(MEX_FILE_NAME) @$(OBJLIST_FILE) $(USER_LIBS) $(SFCLIB) $(PARLIB) $(IPPLIB) $(THIRD_PARTY_LIBS) 
+%.obj :    %.c
+	$(CC) -c $(CFLAGS) $<
+
+%.obj :    %.cpp
+	$(CC) -c $(CFLAGS) $<
+
